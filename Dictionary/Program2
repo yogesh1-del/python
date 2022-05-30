@@ -1,0 +1,8 @@
+#program to convert string into dictionary   
+str=input("enter string:")  
+dic={}
+p=str.split() 
+ls=len(p) 
+for i in range(ls): 
+    dic[i]=p[i] 
+print(dic)
