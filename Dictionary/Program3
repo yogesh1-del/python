@@ -1,0 +1,15 @@
+list1=[] 
+size1=int(input("enter size of list1: "))
+for i in range(size1): 
+    list1.append(int(input("enter element list1:")))  
+list2=[] 
+size2=int(input("enter size of list2: "))
+for i in range(size2): 
+    list2.append(int(input("enter element list2:")))   
+dic={}  
+if(len(list1)==len(list2)):
+    for i in range(len(list1)): 
+        dic[list1[i]]=list2[i]
+    print(dic) 
+else: 
+    print("size of lists are not equal")
