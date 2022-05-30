@@ -1,0 +1,12 @@
+#program to create dictionary of cube and square upto given range of number
+n=int(input("enter range: "))  
+dic={}  
+choice=input("enter choice 'c' for cube or 's'' for square : ")
+for i in range(1,n+1):  
+    if choice=='c': 
+        dic[i]=i**3 
+    elif choice=='s': 
+        dic[i]=i**2 
+    else: 
+        print("invalid choice")  
+print(dic)
