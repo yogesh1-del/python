@@ -1,0 +1,15 @@
+#string into dictionary not including spaces 
+str=input() 
+lstr=len(str)  
+print(lstr)
+list=[]  
+c=0 
+dic={}
+print(str[1])
+for i in range(lstr): 
+    if str[i]!=" ":
+        list.append(str[i]) 
+        c=c+1
+for i in range(c): 
+    dic[i]=list[i]  
+print(dic)
