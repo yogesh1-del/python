@@ -1,0 +1,7 @@
+dic={}  
+sum=0
+size=int(input("enter size of dictionary: ")) 
+for i in range(size): 
+    dic[i]=int(input("enter value")) 
+    sum=sum+dic[i] 
+print("sum of value",sum)
