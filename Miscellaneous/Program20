@@ -1,0 +1,7 @@
+#Write a program to find the product of element of given list.
+
+import math
+
+my_list = [2, 3, 7, 6]
+
+print("Product of elements of my list = ", math.prod(my_list))
