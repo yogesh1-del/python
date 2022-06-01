@@ -1,0 +1,10 @@
+#Write a program in python to remane a dictionary.
+
+dict2 = {
+    "name": "KANHAIYA",
+    "age": 18,
+    "college": 'gla',
+    "city": "uttra pradesh"
+  }
+dict2['location'] = dict2.pop('city')
+print(dict2)
