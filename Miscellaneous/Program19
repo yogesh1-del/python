@@ -1,0 +1,5 @@
+#Write a python program to Round a number upward to its nearest integer.
+
+import math
+a=int(input("enter number: "))
+print(math.ceil(a))
