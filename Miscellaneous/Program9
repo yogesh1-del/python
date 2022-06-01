@@ -1,0 +1,13 @@
+#Write a program which adds any random five even numbers in a list that falls between the highest and the lowest number.
+
+import random
+L = [ ]
+h = int(input("Enter the highest limit"))
+l=int(input("Enter the lowest limit"))
+while(i):
+     a=random.randrange(l+1,h) #we are not including upper limit and lower limit
+          if(a%2==0):
+               L.append(a)
+          if(len(L)==5):
+              break
+print(L)
