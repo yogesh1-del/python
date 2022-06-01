@@ -1,0 +1,5 @@
+#Write a program to find factorial of a no.
+
+import math
+a=int(input("enter no. "))
+print("factorial  = ", math.factorial(a))
