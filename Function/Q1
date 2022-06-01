@@ -1,0 +1,14 @@
+#Write a program in python to change a no. from decimal to binary.
+
+def convertToBin(a):
+
+   if a > 1:
+
+       convertToBin(a//2)
+
+   print(a % 2,end = '')
+
+d = int(input("enter no. "))
+convertToBin(d)
+
+print()
