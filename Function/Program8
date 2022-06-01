@@ -1,0 +1,10 @@
+#Write a python program whether no. is even or odd.
+
+
+def evenOdd(x):
+	if (x % 2 == 0):
+		print("even")
+	else:
+		print("odd")
+a=int(input("enter no."))
+evenOdd(a)
