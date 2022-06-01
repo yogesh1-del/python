@@ -1,0 +1,7 @@
+#Write a python program to find the solution of n times a, where n and a is entered by user.
+
+import math
+a=int(input())
+n=int(input())
+b=math.pow(a,n)
+print(b)
