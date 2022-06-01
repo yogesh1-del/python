@@ -1,0 +1,5 @@
+#Write a program in python to display first line from the file("KASH.txt") using readlines().
+
+f = open("KS.txt", "r")
+l = f.readlines( )
+print(len(l(0))
