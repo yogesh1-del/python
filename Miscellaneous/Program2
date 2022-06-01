@@ -1,0 +1,8 @@
+#Write a python program to divide a no. also display message if user enter zero.
+
+try:  
+    a = int(input("Enter a:"))    
+    b = int(input("Enter b:"))    
+    c = a/b  
+except:  
+    print("Can't divide with zero")
