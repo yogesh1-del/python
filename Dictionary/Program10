@@ -1,0 +1,9 @@
+# Write a program in python to add new key-value pair in a dictionary.
+
+Dict4 = {
+	'name':'KS',
+	'age':17
+}
+Dict4['sec'] = 'a'
+
+print(Dict4)
