@@ -1,0 +1,8 @@
+#Accept five sports names from the user and write in a file "FRIENDS.txt" (each name should write in separate line)
+
+f = open("FRIENDS.txt","w")
+for i in range(5):
+       n = input("Enter friends name")
+       f.write(n)
+       f.write('\n')
+f.close()
