@@ -1,0 +1,8 @@
+#Write a progam to take positive no. from user if he enters negative no. then Raise the exception
+
+try:  
+     num = int(input("Enter a positive integer: "))  
+     if(num <= 0):    
+         raise ValueError("That is  a negative number!")  
+except ValueError as e:  
+     print(e)
