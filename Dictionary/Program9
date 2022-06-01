@@ -1,0 +1,8 @@
+#Write a Python program to find the sum of all items in a dictionary.
+
+dict3 = {'a': 100, 'b': 200, 'c': 300}
+list = []
+for i in dict3:
+    list.append(dict3[i])
+    final = sum(list)
+print("Sum :",final)
