@@ -1,0 +1,14 @@
+#Write a program to  convert teamperature Fahrenheit to Celsius.
+
+
+def temp(celi):
+    celi = (fahren-32)/1.8
+
+    print("\nEquivalent Temperature in Celsius: ", celi)
+
+
+
+print("Enter Temperature in Fahrenheit: ")
+
+fahren = float(input())
+temp(fahren)
