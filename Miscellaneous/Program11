@@ -1,0 +1,5 @@
+#Write a program that will generate a random number less than 20.
+
+import random
+a=random.randrange(20)
+print(a)
