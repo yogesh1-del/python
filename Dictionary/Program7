@@ -1,0 +1,8 @@
+#Write a python program to Check if the Substring Matches Any Key in a Dictionary.
+
+
+D1 = {'kS': 23, 'raj': 29, 'aish': 33, 'Mick': 40}
+
+search_string = "aish"
+print("The actual dictionary is:", str(D1)) a= dict(filter(lambda item: search_string in item[0], D1.items()))
+print(str(a))
