@@ -1,0 +1,5 @@
+#Write a program in python to read first 5 characters from the file. 
+
+a=open("KS.txt",'r')
+b=a.read(5)
+print(b)
